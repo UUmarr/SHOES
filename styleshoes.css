@@ -1,0 +1,27 @@
+﻿body{
+background-color: #47B558;
+}
+
+header{
+	display: block;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 200px 200px 200px 200px;
+	color: black;
+}
+img {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+.imgA1 {
+  z-index: 3;
+  height: 990px;
+  width: 1390px;
+}
+.imgB1 {
+  z-index: 1;
+}
